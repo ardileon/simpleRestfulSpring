@@ -57,7 +57,7 @@ public class ClientController {
   @DeleteMapping("/post/{id}")
   public String deletePost(@PathVariable("id") long id){
     postService.deletePost(id);
-    return "Post berhasil delete";
+    return "Post berhasil hapus";
   }
 
 
